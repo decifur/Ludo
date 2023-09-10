@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+}
+#main{
+    width: 550px;
+    height: 550px;
+}
+#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8{
+    width: 100%;
+    height: 12.5%;
+}
+#r1_w1,#r1_w2,#r1_w3,#r1_w4,
+#r2_w1,#r2_w2,#r2_w3,#r2_w4,
+#r3_w1,#r3_w2,#r3_w3,#r3_w4,
+#r4_w1,#r4_w2,#r4_w3,#r4_w4,
+#r5_w1,#r5_w2,#r5_w3,#r5_w4,
+#r6_w1,#r6_w2,#r6_w3,#r6_w4,
+#r7_w1,#r7_w2,#r7_w3,#r7_w4,
+#r8_w1,#r8_w2,#r8_w3,#r8_w4{
+    height: 100%;
+    width: 12.5%;
+    float:left;
+    background-color: white;
+}
+#r1_b1,#r1_b2,#r1_b3,#r1_b4,
+#r2_b1,#r2_b2,#r2_b3,#r2_b4,
+#r3_b1,#r3_b2,#r3_b3,#r3_b4,
+#r4_b1,#r4_b2,#r4_b3,#r4_b4,
+#r5_b1,#r5_b2,#r5_b3,#r5_b4,
+#r6_b1,#r6_b2,#r6_b3,#r6_b4,
+#r7_b1,#r7_b2,#r7_b3,#r7_b4,
+#r8_b1,#r8_b2,#r8_b3,#r8_b4{
+    height: 100%;
+    width: 12.5%;
+    float:left;
+    background-color: black;
+}
